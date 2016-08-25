@@ -1,0 +1,172 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.body {background-color:rgb(243,243,243)!important;}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    /*background-color: mediumspringgreen;lightseagreen*/
+    background-color:transparent;
+    z-index: 9999;
+    border: 0;
+    font-size: 1.25em !important;
+    line-height: 1.42857143 !important;
+}
+
+.navbar-header{position:relative;}
+/*.navbar-header .dropdown-menu {position:absolute;top:50px;left:50px;}
+.navbar-header .dropdown-menu .dropdown-submenu>a:after{float:right;margin-top:6px;margin-right:-10px;border-left:4px dashed;border-top:4px solid transparent;border-bottom:4px solid transparent}
+.dropdown-submenu>a:after{content:""}*/
+
+/*Nav::before { content: '\A';white-space: pre-wrap;display:block; }*/
+/*#navlist li::after {content: '\A';white-space: pre-wrap;display:block;}*/
+#navlist li a{color:midnightblue;text-align:right;display:block;padding:20px;transition:all 1s ease;-webkit-transition: all 1s ease;}
+
+.navbar-header button {border:1px steelblue solid}
+.navbar-header button:hover {background-color:rgba(95,22,74,0.3);border:none;}
+.navbar-header img {transition:transform 1s;}
+.navbar-header img:hover {transform: matrix(1.25,0.25,0,1.25,15,15);}
+
+/*.nav-margin {margin-top:60px;}*/
+.row-margin {margin-top:40px;}
+.header {
+    height:700px;
+    text-align:center;
+    position: relative;
+    overflow: hidden;
+}
+.header > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+.header div {
+    position: relative;
+    z-index: 2;
+}
+.margin {margin-bottom:20px;}
+
+/*.set {margin-top:40px;}*/
+.set {position:relative;z-index:4;}
+/*.setContainer img {margin-left:25px;position:relative}*/
+/*.setContainer img::after {content:"";position:absolute;border-right:2px darkblue ridge;left:50px;}*/
+.setContainer-box {margin-top:-50px;width:80%;background-color:#ffffff;}
+@media screen and (max-width:768px) {
+    .set {display:none;}
+}
+.features {
+    width:100%;
+}
+.features > div {
+    padding-left:25px;
+    padding-right:25px;
+    position:relative;
+}
+.features > div img {
+    display:block;
+    margin:0 auto;
+    max-width:100%;
+}
+.features > div p {
+    text-align: center;
+    margin:0 auto;
+    max-width:100%;
+    font-family: "B Nazanin";
+    font-size: 1.25em;
+}
+@media screen and (min-width:768px) {
+    .setContainer > div:after {
+        content:"";
+        border-right:1px solid #ccc;
+        height:50%;
+        position:absolute;
+        top:50%;
+        right:0;
+        -moz-transform:translateY(-50%);
+        -ms-transform:translateY(-50%);
+        -webkit-transform:translateY(-50%);
+        transform:translateY(-50%);
+    }
+    .setContainer > div:last-child:after {
+        display:none;
+    }
+}
+
+.row2 {position:relative;}
+.hero {
+    position:absolute;
+    width: 347px;
+    height: 517px;
+    top:0;
+    left:0;
+    background: url('/src/images/tides-main.png') 0 0 no-repeat;
+}
+/*.hero {
+    position:absolute;
+    width: 347px;
+    height: 517px;
+    background: url('/src/images/tides-main.png') 0 0 no-repeat;
+    top: 156px;
+    left: 50%;
+    margin-left: -460px;
+    z-index: 555;
+    overflow: visible;
+}
+
+.hero .action {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 22px 0 0 0;
+}
+
+.hero .action a {
+    display: inline-block;
+    color: #585858;
+    padding: 10px;
+}
+
+.hero a:hover {
+    color: #333;
+}
+
+.hero a span {
+    color: #a4a4a4;
+}
+
+
+.glare {
+    background: url('https://www.cdn.whatsapp.net/img/v3/bg-android.png') 0 0 no-repeat;
+    background-position: -347px 0;
+    height: 490px;
+    width: 170px;
+    position:absolute;
+    top: 6px;
+    left: 53px;
+    z-index: 1;
+}*/
+.colImg {position: relative;text-align:center;width:388px;}
+.c-wrapper {position:absolute;top:62px;left:68px;z-index:4;width:254px;}/*margin:-516px 0 0 80px;}*/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 1524px;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+.leftWrapper > div,.rightWrapper > div {padding:60px 0px;}
+.leftWrapper > div > img {float:right;margin-left:20px;}
+.rightWrapper > div > img {float:left;margin-right:20px;overflow: visible;}

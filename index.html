@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fa">
+<!-- This is a simple demonstration of using comments in a web page -->
+<head>
+    <meta name="author" content="Mohammad Niksefat">
+    <title>معرفی نسیم</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="src/images/nasim.png">
+
+    <link rel="stylesheet" href="src/static/bootstrap.min.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="src/static/jquery.min.js"></script>
+    <script src="src/static/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="src/css/custom.css">
+    <link rel="stylesheet" href="src/css/tab.css">
+    <script src="src/javascript/custom.js"></script>
+    <script src="src/javascript/jquery.jcarousel.min.js"></script>
+
+</head>
+<body id="mypage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-fixed-top has-transitions">
+        <div id="Nav" class="container-fluid"> <!--style="background-color:#fffcf5;"> -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar" style="background-color:midnightblue"></span>
+                    <span class="icon-bar" style="background-color:midnightblue"></span>
+                    <span class="icon-bar" style="background-color:midnightblue"></span>
+                </button>
+                <a id="dpimg" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    <img src="src/images/logo-blue.png" alt="نسیم" width="50px" height="50px"> </a>
+
+                <!--<ul id="dpimglist" class="dropdown-menu">
+                    <div>
+                        <li><a href="https://nasim.elenoon.ir">نسخه وب</a></li>
+                    </div>
+                    <div>
+                        <li><a href="https://play.google.com/store/apps/details?id=ir.nasim">دانلود نسخه اندروید</a></li>
+                    </div>
+                    <div>
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" tabindex="0">نسخه ios</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://nasimapp.elenoon.ir/download/help.ios.pdf">دانلود نسخه ios</a></li>
+                                <li><a href="https://nasimapp.elenoon.ir/download/help.ios.pdf" target="_blank">راهنمای نصب در ios</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </ul> -->
+
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                <ul id="navlist" class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#mypage">خانه</a></li>
+                    <li><a href="#">درباره ی ما
+                    </a></li>
+                    <li><a href="#">نمونه ها
+                    </a></li>
+                    <li><a href="https://nasim.elenoon.ir" target="_blank">نسخه وب
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid nav-margin header text-center">
+        <div class="row text-center row-margin">
+            <!--<div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+                <img class="img-responsive img-rounded" style="display:inline" src="src/images/tides-main.png" alt="نسیم" width="300px" height="500px">
+            </div> -->
+            <div class="col-lg-8 col-sm-8 col-md-8 clo-xs-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-xs-offset-4">
+                <img class="img-responsive img-rounded margin" style="display:inline" src="src/images/nasim.png" alt="نسیم">
+                <h1 class="margin">پیام رسان و شبکه اجتماعی نسیم</h1>
+                <hr style="width:100px;">
+                <p>جدیدترین سرویس ارائه شده شرکت النون، برنامه ای برای گسترش ارتباطات شخصی و سازمانی </p>
+            </div>
+        </div>
+        <img src="src/images/top2.jpg"/>
+    </div>
+    <div class="container-fluid set">
+        <div class="container-fluid setContainer-box">
+            <div class="row text-center setContainer">
+                <div class="col-lg-3 col-sm-3 col-md-3 text-center"><img src="src/images/businessman239.png" width="100px"><p>محاورات گروهی و شخصی</p></div>
+                <div class="col-lg-3 col-sm-3 col-md-3 text-center"><img src="src/images/computer-monitor7.png" width="100px"><p>پشتیبانی از تمامی دستگاه ها</p></div>
+                <div class="col-lg-3 col-sm-3 col-md-3 text-center"><img src="src/images/security20.png" width="100px"><p>ارتباط امن و رمزنگاری شده</p></div>
+                <div class="col-lg-3 col-sm-3 col-md-3 text-center"><img class="speed" src="src/images/speed12.png" width="100px"><p>سرعت در انتقال پیام و فایل</p></div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="container-fluid lead-box-container hidden-xs">
+            <div class="lead-box-offset">
+                <div class="lead-box homepage-lead-box">
+                    <ul class="features">
+                        <li><img src="businessman239.png" width="100px"><p>محاورات گروهی و شخصی</p></li>
+                        <li><img src="computer-monitor7.png" width="100px"><p>پشتیبانی از تمامی دستگاه ها</p></li>
+                        <li><img src="security20.png" width="100px"><p>ارتباط امن و رمزنگاری شده</p></li>
+                        <li><img class="speed" src="speed12.png" width="100px"><p>سرعت در انتقال پیام و فایل</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+    <!--<div class="container-fluid moreinfo" style="padding:0;">
+            <ul id="pillitems" class="nav nav-pills nav-justified">
+                <li class="active"><a id="test1" data-toggle="pill" href="#pill1">اطلاع رسانی و تعامل</a></li>
+                <li><a id="test2" data-toggle="pill" href="#pill2">آموزش و یادگیری</a></li>
+                <li><a data-toggle="pill" href="#pill3">مشارکت سازمانی </a></li>
+                <li><a data-toggle="pill" href="#pill4">ویژگی های فنی</a></li>
+                <li><a data-toggle="pill" href="#pill5">ویژگی های امنیتی</a></li>
+            </ul>
+        </div>-->
+    <!--<div id="pills" class="tab-content">
+            <div id="pill1" class="tab-pane fade in active text-center">
+                <p>ارائه پیشنهاد توسط کارکنان در هر لحظه و هرکجا از طریق تلفن همراه<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>ارائه پیشنهاد بهبود با فرمت متن، عکس، فیلم و صوت<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>نقد و بررسی پیشنهادهای ارائه شده توسط کارکنان مختلف در لحظه<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>جلب مشارکت و نظرخواهی از همکاران بوسیله رای گیری آسان در مورد هر پیشنهاد<span class="glyphicon glyphicon-certificate"></span></p>
+            </div>
+            <div id="pill2" class="tab-pane fade text-center">
+                <p>ایجاد کانالهای مختلف آموزشی<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>تشکیل گروه های اشتراک دانش<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>یادگیری تعاملی و امکان تعامل مربی و کارمند<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>یادگیری در همه جا از طریق موبایل<span class="glyphicon glyphicon-certificate"></span></p>
+            </div>
+            <div id="pill3" class="tab-pane fade text-center">
+                <p>ارتباط آسان و لحظه ای با امکان گفتگوی مجازی و ارسال عکس، فیلم و فایل<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>اطلاع رسانی تعاملی برنامه ها و رویدادهای مختلف به کارکنان بصورت دسته جمعی یا فردی در فرمتهای مختلف متنی، صوتی و تصویری<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>مدیریت ارتباطات از طریق مدیریت سطوح دسترسی<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>ارتباط همیشگی کمیته های خبرگان سازمان در اتاق های گفتگوی مجازی<span class="glyphicon glyphicon-certificate"></span></p>
+            </div>
+            <div id="pill4" class="tab-pane fade text-center">
+                <p>معماری نرم افزار بصورت الستیک و توسعه پذیر<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>ارائه خدمات بصورت PAAS برای ارائه قابلیت گفتگو در اپلیکیشن های مختلف دیگر<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>قابلیت تعامل با دیگر سرویس ها و شبکه های اجتماعی از طریق API<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>پشتیبانی و سازگاری با LDAP , active directory<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>استفاده از سامانه ذخیره سازی فایل توزیع شده با پشتیبانی از: high availability , auto sharing<span class="glyphicon glyphicon-certificate"></span></p>
+            </div>
+            <div id="pill5" class="tab-pane fade text-center">
+                <p>رمزنگاری پیام ها بین کلاینتها و سرور برای جلوگیری از شنود<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>استفاده از از پروتکل TLS به همراه WAF برای ارتباط بین کلاینت و سرور<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>انتقال اطلاعات از طریق پروتکل باینری و رمزنگاری شده<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>نظارت امنیتی توسط سیستم SOC برای شناسایی رفتارهای نامعمول و جلوگیری از حملات<span class="glyphicon glyphicon-certificate"></span></p>
+                <p>دارای قابلیت OTR با پشتیبانی از end-to-end encryption بهره گیری از تستهای نفوذ دوره ای و استاندارد<span class="glyphicon glyphicon-certificate"></span></p>
+            </div>
+        </div>-->
+    <div class="row" style="background-color:rgb(243,243,243);height:575px;">
+        <div class="col-lg-4 col-md-4 leftWrapper">
+            <div class="text-center" style="width:100%">
+                <img src="src/images/emoticon12.png" width="50px" height=auto alt="">
+                <p>رابط کاربری جذاب</p>
+                <p>رابط کاربری بومی ما تجربه کاربری عالی را به کاربران میدهد</p>
+            </div>
+            <div class="text-center" style="width:100%">
+                <img src="src/images/spline.png" width="50px" height=auto alt="">
+                <p>پنل مدیریت کارآمد</p>
+                <p>پنل مدیریت قوی که امکان مدیریت کارآمد برنامه را ایجاد میکند</p>
+            </div>
+            <div class="text-center" style="width:100%">
+                <img src="src/images/male220.png" width="50px" height=auto alt="">
+                <p>سطوح دسترسی متفاوت</p>
+                <p>مدیریت سطوح دسترسی اعضا در یک کانال و یک گروه برای مدیریت بهتر</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center">
+            <div class="colImg">
+                <img src="src/images/tides-main.png" alt="nasim" width="290px" height=auto/>
+                <div class="c-wrapper">
+                    <div class="jcarousel">
+                        <ul>
+                            <li><img src="src/images/001.jpg" width="254px" height="416px" alt=""></li>
+                            <li><img src="src/images/002.jpg" width="254px" height="416px" alt=""></li>
+                            <li><img src="src/images/004.jpg" width="254px" height="416px" alt=""></li>
+                            <li><img src="src/images/005.jpg" width="254px" height="416px" alt=""></li>
+                            <li><img src="src/images/008-copy.jpg" width="254px" height="416px" alt=""></li>
+                            <li><img src="src/images/009-copy.jpg" width="254spx" height="416px" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 rightWrapper">
+            <div class="text-center" style="width:100%">
+                <img src="src/images/businessman259.png" width="50px" height=auto alt="">
+                <p>برگزاری نظرسنجی و مسابقات </p>
+                <p>برای بالابردن انگیزه کارکنان و تعامل و جمع آوری نظرات آن ها</p>
+            </div>
+            <div class="text-center" style="width:100%">
+                <img src="src/images/crowd.png" width="50px" height=auto alt="">
+                <p>ایجاد کانال ها و گروه ها</p>
+                <p>امکان اطلاع رسانی از طریق کانال ها و همکاری در گروه های کاری </p>
+            </div>
+            <div class="text-center" style="width:100%">
+                <img src="src/images/hand103.png" width="50px" height=auto alt="">
+                <p>ارتباط راحت و همیشگی با تمام اعضای سازمان</p>
+                <p>همه ی اعضای یک سازمان میتوانند همیشه و هر کجا به راحتی با هم ارتباط برقرار کنند</p>
+            </div>
+        </div>
+
+    </div>
+    <!--<div class="tabs" role="tabs">
+        <ul style="z-index: 3; position: relative;" class="tabs__menu">
+            <li aria-hidden="false" class="tabs__menu-item yanone active"><a href="#">features</a></li>
+            <li aria-hidden="true" class="tabs__menu-item"><a href="#">how to setup</a></li>
+        </ul>
+    </div> -->
+
+    <div class="container-fluid big-tab">
+        <div class="tabs">
+            <ul style="z-index: 3; position: relative;" class="tabs_menu">
+                <li class="tabs_menu-item tab-link" data-tab="tab-1"><p>ویژگی های امنیتی</p></li>
+                <li class="tabs_menu-item tab-link" data-tab="tab-2"><p>ویژگی های فنی</p></li>
+                <li class="tabs_menu-item tab-link" data-tab="tab-3"><p>مشارکت سازمانی</p></li>
+                <li class="tabs_menu-item tab-link" data-tab="tab-4"><p>آموزش و یادگیری</p></li>
+                <li class="tabs_menu-item tab-link current" data-tab="tab-5"><p>اطلاع رسانی و تعامل</p></li>
+            </ul>
+        </div>
+
+        <div id="tab-1" class="container-fluid tab-content text-center">
+            <p>رمزنگاری پیام ها بین کلاینتها و سرور برای جلوگیری از شنود</p>
+            <p>استفاده از از پروتکل TLS به همراه WAF برای ارتباط بین کلاینت و سرور</p>
+            <p>انتقال اطلاعات از طریق پروتکل باینری و رمزنگاری شده</p>
+            <p>نظارت امنیتی توسط سیستم SOC برای شناسایی رفتارهای نامعمول و جلوگیری از حملات</p>
+            <p>دارای قابلیت OTR با پشتیبانی از end-to-end encryption بهره گیری از تستهای نفوذ دوره ای و استاندارد</p>
+        </div>
+        <div id="tab-2" class="container-fluid tab-content text-center">
+            <p>معماری نرم افزار بصورت الستیک و توسعه پذیر</p>
+            <p>ارائه خدمات بصورت PAAS برای ارائه قابلیت گفتگو در اپلیکیشن های مختلف دیگر<</p>
+            <p>قابلیت تعامل با دیگر سرویس ها و شبکه های اجتماعی از طریق API</p>
+            <p>پشتیبانی و سازگاری با LDAP , active directory</p>
+            <p>استفاده از سامانه ذخیره سازی فایل توزیع شده با پشتیبانی از: high availability , auto sharing</p>
+        </div>
+        <div id="tab-3" class="container-fluid tab-content text-center">
+            <p>ارتباط آسان و لحظه ای با امکان گفتگوی مجازی و ارسال عکس، فیلم و فایل</p>
+            <p>اطلاع رسانی تعاملی برنامه ها و رویدادهای مختلف به کارکنان بصورت دسته جمعی یا فردی در فرمتهای مختلف متنی، صوتی و تصویری</p>
+            <p>مدیریت ارتباطات از طریق مدیریت سطوح دسترسی</p>
+            <p>ارتباط همیشگی کمیته های خبرگان سازمان در اتاق های گفتگوی مجازی</p>
+        </div>
+        <div id="tab-4" class="container-fluid tab-content text-center">
+            <p>ایجاد کانالهای مختلف آموزشی</p>
+            <p>تشکیل گروه های اشتراک دانش</p>
+            <p>یادگیری تعاملی و امکان تعامل مربی و کارمند</p>
+            <p>یادگیری در همه جا از طریق موبایل</p>
+        </div>
+        <div id="tab-5" class="container-fluid tab-content text-center current">
+            <p>ارائه پیشنهاد توسط کارکنان در هر لحظه و هرکجا از طریق تلفن همراه</p>
+            <p>ارائه پیشنهاد بهبود با فرمت متن، عکس، فیلم و صوت</p>
+            <p>نقد و بررسی پیشنهادهای ارائه شده توسط کارکنان مختلف در لحظه</p>
+            <p>جلب مشارکت و نظرخواهی از همکاران بوسیله رای گیری آسان در مورد هر پیشنهاد</p>
+        </div>
+    </div><!-- container -->
+
+    <div>
+        <form class="formoid-solid-blue" style="background-color:#FFFFFF;font-size:14px;font-family:'Roboto',Arial,Helvetica,sans-serif;color:#34495E;max-width:480px;min-width:150px" method="post"><div class="title"><h2>تماس با ما</h2></div>
+            <div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="input" placeholder="نام"/><span class="icon-place"></span></div></div>
+            <div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="input1" placeholder="آدرس ایمیل شما"/><span class="icon-place"></span></div></div>
+            <div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="input2" placeholder="عنوان"/><span class="icon-place"></span></div></div>
+            <div class="element-textarea"><label class="title"></label><div class="item-cont"><textarea class="medium" name="textarea" cols="20" rows="5" placeholder="متن پیام"></textarea><span class="icon-place"></span></div></div>
+            <div class="submit"><input type="submit" value="ارسال"/></div>
+        </form>
+    </div>
+    <footer class="">
+    </footer>
+</body>
+</html>
